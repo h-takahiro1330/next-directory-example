@@ -5,6 +5,6 @@ type Props = {
   children: ReactNode
 }
 
-export function Button({ onClick, children }: Props) {
+export function Button({ onClick, children }: Props): JSX.Element {
   return <button onClick={onClick}>{children}</button>
 }

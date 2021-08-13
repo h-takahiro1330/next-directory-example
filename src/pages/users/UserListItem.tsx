@@ -5,7 +5,10 @@ type Props = {
   user: User
 }
 
-export function UserListItem({ user }: Props) {
+/**
+ * @package
+ */
+export function UserListItem({ user }: Props): JSX.Element {
   return (
     <li>
       <Link href={`/users/${user.id}`}>

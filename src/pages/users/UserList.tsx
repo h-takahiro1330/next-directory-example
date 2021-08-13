@@ -6,7 +6,10 @@ type Props = {
   users: User[]
 }
 
-export function UserList({ users }: Props) {
+/**
+ * @package
+ */
+export function UserList({ users }: Props): JSX.Element {
   return (
     <>
       <Title>ユーザー一覧</Title>

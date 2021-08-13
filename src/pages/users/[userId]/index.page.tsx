@@ -5,6 +5,6 @@ const USER = {
   name: 'user1'
 }
 
-export default function UserPage() {
+export default function UserPage(): JSX.Element {
   return <UserDetail user={USER} />
 }

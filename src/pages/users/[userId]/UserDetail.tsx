@@ -5,6 +5,9 @@ type Props = {
   user: User
 }
 
-export function UserDetail(user: Props) {
+/**
+ * @package
+ */
+export function UserDetail(user: Props): JSX.Element {
   return <Title>ユーザー詳細</Title>
 }
