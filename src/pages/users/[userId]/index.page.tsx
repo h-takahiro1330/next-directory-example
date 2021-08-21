@@ -1,6 +1,7 @@
 import { UserDetail } from '~/pages/users/[userId]/UserDetail'
+import { User } from '~/pages/users/user'
 
-const USER = {
+const USER: User = {
   id: 1,
   name: 'user1'
 }
